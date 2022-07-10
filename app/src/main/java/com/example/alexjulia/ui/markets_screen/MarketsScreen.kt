@@ -22,7 +22,6 @@ fun MarketsScreen(navController: NavHostController) {
         FloatEntry(5f, 400f), FloatEntry(6f, 500f)
     )
     val spacing = LocalSpacing.current
-//    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
     LazyColumn(modifier = Modifier.padding(bottom = spacing.listBottomSpacing)) {
         item {
             LazyRow {
